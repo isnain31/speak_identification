@@ -4,5 +4,5 @@ speak_identification
 2. test.sh file take each of the file and check against existing models to identify the voice
 
 So in order to run:
-  run the python file
-  run the sh file
+  1. run the python file
+  2. run the sh file
