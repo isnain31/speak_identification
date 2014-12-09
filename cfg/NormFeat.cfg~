@@ -1,0 +1,29 @@
+* NormFeat config File
+
+inputFeatureFilename		[GENERATED]
+bigEndian			false	
+loadFeatureFileFormat		SPRO4
+saveFeatureFileFormat		SPRO4
+loadFeatureFileExtension 	.mfcc
+saveFeatureFileExtension 	.norm.prm
+featureServerBufferSize 	ALL_FEATURES
+featureFilesPath		./feature/
+labelFilesPath			./feature/
+sampleRate			100
+saveFeatureFileSPro3DataKind	FBCEPSTRA
+inputFeatureFilename		0_1
+labelSelectedFrames		speech
+segmentalMode			false
+writeAllFeatures		true
+frameLength			0.01
+mode				norm
+featureServerMode		FEATURE_WRITABLE
+featureServerMemAlloc		1000000
+verbose				true
+debug 				true
+
+
+
+
+
+
