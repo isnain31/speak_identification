@@ -4,7 +4,7 @@ DATADIR="capture/"
 FEATUREDIR="feature/"
 
 RAWFILES=`ls -l $DATADIR | egrep '^-' |  awk '{print $9}' ` 
-#rm -rf capture/*
+rm -rf capture/*
 rm -rf feature/*
 rm -f result.res
 rm -f ndx.train
